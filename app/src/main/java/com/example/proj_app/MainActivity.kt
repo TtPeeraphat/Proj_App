@@ -8,7 +8,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.proj_app.databinding.ActivityMainBinding
-//fasdwqer qdcssf df q
+//fasdwqer qdcssf df qrg
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
