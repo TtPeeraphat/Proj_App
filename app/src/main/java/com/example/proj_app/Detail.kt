@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 class Detail : AppCompatActivity() {
-    /*ahhhhhhhhhhhhhh*/
+    /*ahhhhhhhhhhhhhhk*/
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail)
