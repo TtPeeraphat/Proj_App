@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.proj_app.ui.ui.dashboard.DashboardFragment"
+        android:id="@+id/navigation_bookmark"
+        android:name="com.example.proj_app.ui.ui.bookmark.BookmarkFragment"
         android:label="@string/title_bookmark"
         tools:layout="@layout/fragment_bookmark" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.proj_app.ui.ui.notifications.NotificationsFragment"
+        android:id="@+id/navigation_faq"
+        android:name="com.example.proj_app.ui.ui.faq.FaqFragment"
         android:label="@string/title_faq"
         tools:layout="@layout/fragment_faq" />
 </navigation>
