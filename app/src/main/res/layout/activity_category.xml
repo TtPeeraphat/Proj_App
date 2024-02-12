@@ -94,7 +94,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <fragment
-        android:id="@+id/nav_host_fragment_activity_main"
+        android:id="@+id/nav_host_fragment_activity_category"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
