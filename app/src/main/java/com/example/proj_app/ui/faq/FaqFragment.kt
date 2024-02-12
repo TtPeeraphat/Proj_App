@@ -8,6 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.proj_app.databinding.FragmentFaqBinding
+import com.example.proj_app.ui.bookmark.BookmarkViewModel
 
 
 class FaqFragment : Fragment() {
@@ -23,14 +24,14 @@ class FaqFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val notificationsViewModel =
-            ViewModelProvider(this).get(NotificationsViewModel::class.java)
+        val bookmarkViewModel =
+            ViewModelProvider(this).get(BookmarkViewModel::class.java)
 
         _binding = FragmentFaqBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
-        notificationsViewModel.text.observe(viewLifecycleOwner) {
+        val textView: TextView = binding.FqTxtH
+        bookmarkViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
         return root

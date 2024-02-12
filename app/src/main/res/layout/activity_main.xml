@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingTop="?attr/actionBarSize">
+    android:layout_height="match_parent">
+<!--    android:paddingTop="?attr/actionBarSize">-->
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"
@@ -44,21 +44,7 @@
         tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:fontFamily="monospace"
-        android:text="News"
-        android:textColor="#43A047"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.099"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/Main_HPopular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
@@ -72,37 +58,37 @@
         app:layout_constraintTop_toBottomOf="@+id/Main_imgNews" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/Main_img3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toBottomOf="@+id/Main_viewPopular"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/Main_img2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="97dp"
+
+        android:layout_marginEnd="180dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.011"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/Main_imgNews"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/Main_img1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="29dp"
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <TextView
@@ -113,62 +99,64 @@
         android:text="View all"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.847"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+
         app:layout_constraintTop_toBottomOf="@+id/Main_imgNews" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/Main_HNews"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="monospace"
         android:text="News"
         android:textColor="#43A047"
         android:textSize="24sp"
         app:layout_constraintEnd_toStartOf="@+id/Main_viewNews"
-        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_activity_main" />
 
     <TextView
         android:id="@+id/Main_viewNews"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="36dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="48dp"
         android:text="View all"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_activity_main" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="37dp"
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/Main_HPopular"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/Main_img5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="21dp"
+
         app:layout_constraintStart_toEndOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/Main_img2"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/Main_img6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="64dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="396dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
+
         app:layout_constraintTop_toBottomOf="@+id/Main_viewNews"
         app:srcCompat="@android:drawable/sym_def_app_icon" />
 

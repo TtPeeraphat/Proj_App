@@ -29,7 +29,7 @@ class FaqFragment : Fragment() {
         _binding = FragmentFaqBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
+        val textView: TextView = binding.FqTxtH
         faqViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
