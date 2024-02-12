@@ -7,11 +7,18 @@ import android.widget.EditText
 import android.widget.ImageButton
 
 class ForgotPassword : AppCompatActivity() {
-
+    var FgP_backbtn: ImageButton? =null
+    var FgP_edtEmail: EditText?=null
+    var FgP_submitbtn: Button?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forgot_password)
         init()
     }
+fun init(){
+FgP_backbtn = findViewById(R.id.forgot_backbtn)
+FgP_submitbtn = findViewById(R.id.forgot_submitbtn)
+FgP_edtEmail = findViewById(R.id.forgot_emailtxt)
 
+}
 }
