@@ -16,9 +16,9 @@ class ForgotPassword : AppCompatActivity() {
         init()
     }
 fun init(){
-FgP_backbtn = findViewById(R.id.FgP_backbtn)
-FgP_submitbtn = findViewById(R.id.FgP_submitbtn)
-FgP_edtEmail = findViewById(R.id.FgP_edtEmail)
+FgP_backbtn = findViewById(R.id.forgot_backbtn)
+FgP_submitbtn = findViewById(R.id.forgot_submitbtn)
+FgP_edtEmail = findViewById(R.id.forgot_emailtxt)
 
 }
 }
