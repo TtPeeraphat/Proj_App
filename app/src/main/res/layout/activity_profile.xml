@@ -7,16 +7,17 @@
     tools:context=".Profile">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
+        android:id="@+id/profile_constraintline"
         android:layout_width="70dp"
         android:layout_height="5dp"
+        android:layout_marginTop="32dp"
         android:background="@drawable/lgreenbg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/profile_profiletxt"
         tools:context=".Profile"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="64dp" />
+        tools:ignore="MissingConstraints" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"

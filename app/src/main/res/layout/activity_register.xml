@@ -8,7 +8,7 @@
     <!--    android:paddingTop="?attr/actionBarSize">-->
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
+        android:id="@+id/register_constraintline"
         android:layout_width="70dp"
         android:layout_height="5dp"
         android:background="@drawable/lgreenbg"
@@ -74,7 +74,7 @@
         android:id="@+id/register_emailtxt"
         android:layout_width="220dp"
         android:layout_height="40dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="92dp"
         android:background="#CD4F6F52"
         android:ems="10"
@@ -100,7 +100,7 @@
         android:id="@+id/register_passtxt"
         android:layout_width="220dp"
         android:layout_height="40dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="92dp"
         android:background="#CD4F6F52"
         android:ems="10"
@@ -113,7 +113,7 @@
         android:id="@+id/register_confirmpasstxt"
         android:layout_width="220dp"
         android:layout_height="40dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="92dp"
         android:background="#CD4F6F52"
         android:ems="10"
