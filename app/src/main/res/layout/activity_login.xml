@@ -32,8 +32,8 @@
 
     <EditText
         android:id="@+id/login_usernametxt"
-        android:layout_width="220dp"
-        android:layout_height="40dp"
+        android:layout_width="230dp"
+        android:layout_height="59dp"
         android:layout_marginStart="100dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="101dp"
@@ -47,8 +47,8 @@
 
     <EditText
         android:id="@+id/login_passwordtxt"
-        android:layout_width="220dp"
-        android:layout_height="40dp"
+        android:layout_width="235dp"
+        android:layout_height="54dp"
         android:layout_marginStart="101dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="101dp"
@@ -67,25 +67,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
-        android:layout_marginBottom="52dp"
         android:background="@drawable/btnbg"
         android:text="Login"
         android:textColor="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/nav_view"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="436dp" />
 
     <Button
         android:id="@+id/login_forgotBtn"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="130dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="85dp"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="19dp"
         android:text="forgot password?"
         android:textColor="#000000"
         android:textSize="10sp"
-        app:layout_constraintEnd_toStartOf="@+id/login_registerBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_passwordtxt"
         app:rippleColor="#000000" />
@@ -93,13 +91,15 @@
     <Button
         android:id="@+id/login_registerBtn"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="94dp"
-        android:layout_height="35dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="106dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="4dp"
         android:text="Register"
         android:textColor="#000000"
         android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
         app:layout_constraintStart_toEndOf="@+id/login_forgotBtn"
         app:layout_constraintTop_toBottomOf="@+id/login_passwordtxt"
         app:rippleColor="#000000" />
@@ -121,32 +121,4 @@
         app:layout_constraintTop_toBottomOf="@+id/login_logoimg" />
 
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/nav_view"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        app:itemIconTint="#000000"
-        app:itemTextColor="#000000"
-        android:background="@drawable/btnbg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
-
-    <fragment
-        android:id="@+id/nav_host_fragment_activity_main"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:defaultNavHost="true"
-        app:layout_constraintBottom_toTopOf="@id/nav_view"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:navGraph="@navigation/mobile_navigation" />
 </androidx.constraintlayout.widget.ConstraintLayout>

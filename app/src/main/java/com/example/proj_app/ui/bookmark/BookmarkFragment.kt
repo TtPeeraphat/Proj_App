@@ -12,6 +12,7 @@ import com.example.proj_app.databinding.FragmentBookmarkBinding
 
 class BookmarkFragment : Fragment() {
 
+
     private var _binding: FragmentBookmarkBinding? = null
 
     // This property is only valid between onCreateView and
