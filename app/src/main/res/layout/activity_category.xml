@@ -35,25 +35,18 @@
         app:layout_constraintVertical_bias="0.0"
         app:navGraph="@navigation/mobile_navigation" />
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/category_containmenu"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/btnbg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/nav_host_fragment_activity_main"
-        tools:context=".Profile"
-        tools:ignore="MissingConstraints" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="287dp"
+        android:layout_height="205dp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="77dp" />
 
     <ImageButton
-        android:id="@+id/cate_backbtn"
+        android:id="@+id/category_backbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="?attr/homeAsUpIndicator" />

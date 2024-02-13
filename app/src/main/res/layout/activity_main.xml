@@ -62,43 +62,56 @@
         app:layout_constraintVertical_bias="0.0"
         app:navGraph="@navigation/mobile_navigation" />
 
-    <TextView
-        android:id="@+id/home_populartxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="440dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="Popular"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/home_newtxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="48dp"
-        android:layout_marginTop="648dp"
-        android:fontFamily="sans-serif-condensed-medium"
-        android:text="New"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/home_newstxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="92dp"
         android:fontFamily="sans-serif-condensed-medium"
         android:text="News"
         android:textColor="#000000"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/home_populartxt"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="44dp"-->
+<!--        android:layout_marginTop="440dp"-->
+<!--        android:fontFamily="sans-serif-condensed-medium"-->
+<!--        android:text="Popular"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/home_newtxt"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="44dp"-->
+<!--        android:layout_marginTop="732dp"-->
+<!--        android:fontFamily="sans-serif-condensed-medium"-->
+<!--        android:text="New"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+<!--    -->
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:layout_width="287dp"-->
+<!--        android:layout_height="205dp"-->
+<!--        tools:layout_editor_absoluteX="44dp"-->
+<!--        tools:layout_editor_absoluteY="497dp" />-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:layout_width="286dp"-->
+<!--        android:layout_height="198dp"-->
+<!--        tools:layout_editor_absoluteX="44dp"-->
+<!--        tools:layout_editor_absoluteY="789dp" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
